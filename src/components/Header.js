@@ -50,9 +50,9 @@ const Header = () => {
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">
-          {navigationLinks.map((link) => (
+          {navigationLinks.map((link, index) => (
             <Link
-              key={link.href}
+              key={index}
               href={link.href}
               className="relative px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
             >

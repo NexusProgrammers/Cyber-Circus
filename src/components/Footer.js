@@ -116,7 +116,11 @@ const Footer = () => {
             </h6>
             <ul className="flex space-x-4">
               <li>
-                <a href="#">
+                <a
+                  href="https://www.facebook.com/cybercircusofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="fill-blue-600 w-8 h-8"
@@ -130,31 +134,28 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a
+                  href="https://github.com/cybercircusofficail"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-8 h-8"
-                    viewBox="0 0 112.196 112.196"
+                    viewBox="0 0 24 24"
                   >
-                    <circle
-                      cx="56.098"
-                      cy="56.097"
-                      r="56.098"
-                      fill="#007ab9"
-                      data-original="#007ab9"
-                    />
                     <path
-                      fill="#fff"
-                      d="M89.616 60.611v23.128H76.207V62.161c0-5.418-1.936-9.118-6.791-9.118-3.705 0-5.906 2.491-6.878 4.903-.353.862-.444 2.059-.444 3.268v22.524h-13.41s.18-36.546 0-40.329h13.411v5.715c-.027.045-.065.089-.089.132h.089v-.132c1.782-2.742 4.96-6.662 12.085-6.662 8.822 0 15.436 5.764 15.436 18.149zm-54.96-36.642c-4.587 0-7.588 3.011-7.588 6.967 0 3.872 2.914 6.97 7.412 6.97h.087c4.677 0 7.585-3.098 7.585-6.97-.089-3.956-2.908-6.967-7.496-6.967zm-6.791 59.77H41.27v-40.33H27.865v40.33z"
-                      data-original="#f1f2f2"
+                      fill="currentColor"
+                      d="M12 .5C5.648.5.5 5.648.5 12c0 5.093 3.292 9.412 7.86 10.946.574.112.785-.249.785-.555 0-.273-.01-1.172-.015-2.128-3.198.696-3.873-1.372-3.873-1.372-.523-1.329-1.28-1.683-1.28-1.683-1.046-.715.08-.701.08-.701 1.158.081 1.768 1.189 1.768 1.189 1.028 1.763 2.698 1.253 3.355.958.104-.745.402-1.253.732-1.541-2.553-.29-5.237-1.277-5.237-5.685 0-1.256.448-2.283 1.185-3.088-.119-.289-.513-1.454.113-3.033 0 0 .967-.31 3.17 1.18a11.03 11.03 0 0 1 2.886-.388c.979.005 1.966.132 2.886.388 2.202-1.49 3.167-1.18 3.167-1.18.628 1.579.234 2.744.115 3.033.739.805 1.183 1.832 1.183 3.088 0 4.419-2.689 5.391-5.252 5.674.413.355.781 1.057.781 2.131 0 1.539-.014 2.779-.014 3.158 0 .309.208.673.79.553C20.214 21.407 23.5 17.092 23.5 12 23.5 5.648 18.352.5 12 .5z"
                     />
                   </svg>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/cybercircusconnect"
+                  href="https://www.instagram.com/cybercircusofficial"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -205,26 +206,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://x.com/cybercircusct" target="_blank">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-8 h-8"
-                    viewBox="0 0 1227 1227"
-                  >
-                    <path
-                      d="M613.5 0C274.685 0 0 274.685 0 613.5S274.685 1227 613.5 1227 1227 952.315 1227 613.5 952.315 0 613.5 0z"
-                      data-original="#000000"
-                    />
-                    <path
-                      fill="#fff"
-                      d="m680.617 557.98 262.632-305.288h-62.235L652.97 517.77 470.833 252.692H260.759l275.427 400.844-275.427 320.142h62.239l240.82-279.931 192.35 279.931h210.074L680.601 557.98zM345.423 299.545h95.595l440.024 629.411h-95.595z"
-                      data-original="#ffffff"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/@cybercircusconnect" target="_blank">
+                <a
+                  href="https://www.youtube.com/@cybercircusofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-8 h-8"

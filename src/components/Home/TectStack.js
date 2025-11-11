@@ -329,26 +329,24 @@ const TechStack = () => {
           {filteredTechs.map((tech, index) => {
             const Icon = tech.icon;
             return (
-              <>
-                <Fade cascade damping={0.1} triggerOnce>
-                  <div
-                    key={index}
-                    className="flex flex-col items-center justify-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer"
-                  >
-                    <div className="flex items-center justify-center h-20 w-20 p-4 rounded-lg mb-2 bg-gray-50 dark:bg-gray-700">
-                      <Icon
-                        className="w-12 h-12"
-                        style={{
-                          color: isDarkMode ? tech.darkColor : tech.color,
-                        }}
-                      />
-                    </div>
-                    <p className="text-sm font-medium text-center">
-                      {tech.name}
-                    </p>
+              <Fade
+                key={`${tech.name}-${index}`}
+                cascade
+                damping={0.1}
+                triggerOnce
+              >
+                <div className="flex flex-col items-center justify-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer">
+                  <div className="flex items-center justify-center h-20 w-20 p-4 rounded-lg mb-2 bg-gray-50 dark:bg-gray-700">
+                    <Icon
+                      className="w-12 h-12"
+                      style={{
+                        color: isDarkMode ? tech.darkColor : tech.color,
+                      }}
+                    />
                   </div>
-                </Fade>
-              </>
+                  <p className="text-sm font-medium text-center">{tech.name}</p>
+                </div>
+              </Fade>
             );
           })}
         </motion.div>

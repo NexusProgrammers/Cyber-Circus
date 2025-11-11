@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import React, { useState } from "react";
@@ -55,7 +56,7 @@ const ProjectSection = () => {
     },
   ];
 
-  const categories = ["all", ...new Set(projects.map((project) => project.category))];
+  const categories = ["all", ...new Set(projects.map((project, index) => project.category))];
 
   return (
     <section className="w-full py-16 sm:py-20 md:py-24 bg-white dark:bg-gray-900">
@@ -79,9 +80,9 @@ const ProjectSection = () => {
         <Tabs defaultValue="all" className="w-full">
           <div className="flex justify-center mb-12">
             <TabsList className="bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">
-              {categories.map((category) => (
+              {categories.map((category, index) => (
                 <TabsTrigger
-                  key={category}
+                  key={index}
                   value={category}
                   className="capitalize px-6 py-2 data-[state=active]:bg-white dark:data-[state=active]:bg-gray-700 data-[state=active]:text-blue-600 dark:data-[state=active]:text-blue-400 rounded-md transition-all"
                 >
