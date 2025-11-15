@@ -1,119 +1,119 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
     <>
-      <hr className=" border border-b-blue-700" />
+      <hr className="border border-b-blue-700 dark:border-blue-600" />
       <footer className="px-4 sm:px-6 pt-12 pb-6 font-[sans-serif]">
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h6 className="text-xl font-semibold uppercase leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
+            <h2 className="text-xl font-semibold uppercase leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
               Services
-            </h6>
+            </h2>
             <ul className="space-y-2.5">
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Enterprise Web Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Mobile Application Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Cloud Architecture &amp; DevOps
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Digital Transformation Consulting
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   UI/UX Design &amp; User Experience
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           <div className="space-y-4">
-            <h6 className="text-xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
+            <h2 className="text-xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
               Company
-            </h6>
+            </h2>
             <ul className="space-y-2.5">
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/about" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/portfolio" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/contact" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/career" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/career" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Careers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="space-y-4">
-            <h6 className="text-xl font-semibold uppercase leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
+            <h2 className="text-xl font-semibold uppercase leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
               Solutions
-            </h6>
+            </h2>
             <ul className="space-y-2.5">
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Custom Software Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Digital Transformation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Cloud Architecture
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Enterprise Integration
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <Link href="/services" className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   Quality Assurance &amp; Testing
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           <div className="space-y-4">
-            <h6 className="text-xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
+            <h2 className="text-xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400">
               Connect
-            </h6>
+            </h2>
             <ul className="flex space-x-4">
               <li>
                 <a
@@ -229,24 +229,24 @@ const Footer: React.FC = () => {
               </li>
             </ul>
             <div className="!mt-8">
-              <h6 className="text-sm font-medium">
+              <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                 Transform your business with enterprise software solutions.
-              </h6>
+              </p>
               <div className="mt-4">
-                <a
+                <Link
                   href="/contact"
-                  className="bg-blue-600 hover:bg-blue-700 text-sm text-white font-medium py-3 px-6 tracking-wide rounded-lg transition-colors"
+                  className="inline-block bg-blue-600 hover:bg-blue-700 text-sm text-white font-medium py-3 px-6 tracking-wide rounded-lg transition-colors"
                 >
                   Schedule a Consultation
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
-        <hr className="my-6 border border-b-blue-700" />
+        <hr className="my-6 border border-b-blue-700 dark:border-blue-600" />
         <div className="max-w-screen-xl mx-auto text-center">
-          <p className="text-sm">
-            Cyber Circus © 2025. All rights reserved. Enterprise Software Development &amp; Digital Transformation.
+          <p className="text-sm text-gray-700 dark:text-gray-300">
+            Cyber Circus © {new Date().getFullYear()}. All rights reserved. Enterprise Software Development &amp; Digital Transformation.
           </p>
         </div>
       </footer>

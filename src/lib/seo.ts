@@ -8,7 +8,7 @@ export const siteConfig = {
   legalName: "Cyber Circus",
   tagline: "Enterprise Software Development & Digital Transformation",
   description:
-    "Cyber Circus delivers enterprise-grade custom software solutions, digital transformation services, and technology consulting for global businesses. Transform your operations with our expert engineering team.",
+    "Cyber Circus builds enterprise software that solves real business challenges. We partner with companies to create custom solutions, modernize legacy systems, and drive digital transformation that delivers measurable results.",
   keywords: [
     "enterprise software development",
     "custom software solutions",

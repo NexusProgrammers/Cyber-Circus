@@ -81,7 +81,7 @@ const TestimonialsSection: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6" />
           <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-            See how we&apos;ve partnered with leading enterprises to deliver transformative software solutions that drive measurable business results and competitive advantages.
+            Don't just take our word for it. Here's what our clients have to say about working with us—real projects, real results, real partnerships.
           </p>
         </motion.div>
 

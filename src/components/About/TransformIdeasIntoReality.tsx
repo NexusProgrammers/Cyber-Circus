@@ -13,7 +13,7 @@ const featureCards: FeatureCard[] = [
   {
     title: "Engineering Excellence",
     description:
-      "We build enterprise-grade, scalable software solutions using modern technologies and industry best practices. Our engineering teams deliver robust, maintainable systems that drive long-term business value.",
+      "We write code that matters. Our team builds software using proven technologies and best practices, creating systems that work well today and keep working as your business grows.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const featureCards: FeatureCard[] = [
   {
     title: "Agile Development",
     description:
-      "We follow agile methodologies that enable rapid iteration, continuous delivery, and seamless adaptation to evolving business requirements. Our flexible approach ensures timely delivery without compromising quality.",
+      "We move fast, but we do it right. Our agile approach means we ship early, get feedback, and adapt quickly. No long waits, no surprises—just steady progress toward your goals.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const featureCards: FeatureCard[] = [
   {
     title: "Innovation Focus",
     description:
-      "We continuously explore emerging technologies and innovative approaches to deliver cutting-edge solutions. Our commitment to innovation helps businesses stay ahead of market trends and gain competitive advantages.",
+      "We stay on top of what's new, but we don't chase trends for their own sake. When a new technology actually solves a problem, we'll use it. Otherwise, we stick with what works.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ const featureCards: FeatureCard[] = [
   {
     title: "Strategic Partnerships",
     description:
-      "We build lasting partnerships with our clients, working as an extension of your team. Our collaborative approach ensures alignment with business objectives and delivers solutions that drive measurable results.",
+      "We're not just vendors—we're partners. We work alongside your team, understand your business, and build solutions that actually make a difference. Most of our clients work with us long-term, and there's a reason for that.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -97,10 +97,10 @@ const featureCards: FeatureCard[] = [
 ];
 
 const highlights: string[] = [
-  "Transparent communication and strategic collaboration throughout the development lifecycle",
-  "Elite engineering teams with specialized expertise across enterprise technologies and cloud platforms",
-  "Proven track record of delivering complex enterprise projects on time and within budget",
-  "Comprehensive support and continuous optimization to ensure long-term success and ROI",
+  "Clear communication from day one—no technical jargon, no surprises, just honest updates",
+  "Experienced engineers who know how to build at scale, not just talk about it",
+  "A track record of delivering on time and on budget, even when things get complicated",
+  "Ongoing support that doesn't disappear after launch—we're here for the long haul",
 ];
 
 const TransformIdeasIntoReality: React.FC = () => {
@@ -121,7 +121,7 @@ const TransformIdeasIntoReality: React.FC = () => {
               Transforming Business Vision into Enterprise Software Solutions
             </h2>
             <p className="max-w-2xl mx-auto text-lg">
-              We partner with leading enterprises to build innovative software solutions that drive digital transformation, accelerate growth, and create sustainable competitive advantages.
+              We work with businesses that want to build better software. Sometimes that means starting from scratch. Sometimes it means fixing what's broken. Either way, we're here to help.
             </p>
           </Fade>
         </motion.div>
@@ -157,10 +157,10 @@ const TransformIdeasIntoReality: React.FC = () => {
                 Our Commitment to Excellence
               </h3>
               <p className="mb-4 text-gray-600 dark:text-gray-300">
-                At Cyber Circus, we believe exceptional software solutions require more than technical expertise—they demand deep business understanding, strategic thinking, and a commitment to delivering measurable value.
+                Good software starts with understanding your business. We spend time getting to know how you work, what problems you're trying to solve, and what success looks like for you. Then we build something that actually helps.
               </p>
               <p className="mb-6 text-gray-600 dark:text-gray-300">
-                Our team of dedicated engineering professionals works tirelessly to deliver enterprise-grade solutions that not only meet your requirements but exceed expectations and drive long-term business success.
+                Our team doesn't just write code—we think about your business, ask questions, and challenge assumptions when it makes sense. The result? Software that works the way you need it to, not the way we assume you need it.
               </p>
             </div>
             <div>

@@ -65,7 +65,7 @@ const BannerSection: React.FC = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl">
-                Cyber Circus is a leading enterprise software development company specializing in custom solutions, digital transformation, and technology consulting. We partner with global businesses to deliver innovative software that drives growth, efficiency, and competitive advantage.
+                Founded on the belief that technology should solve real problems, Cyber Circus has grown into a trusted partner for businesses seeking to modernize their operations. We've built our reputation by delivering software that actually works—solutions that teams love to use and that deliver measurable impact.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">

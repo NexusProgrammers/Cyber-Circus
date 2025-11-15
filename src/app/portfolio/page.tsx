@@ -1,11 +1,12 @@
 import BannerSection from "@/components/Portfolio/BannerSection";
 import ProjectSection from "@/components/Portfolio/ProjectSection";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { buildCanonicalUrl, createMetadata } from "@/lib/seo";
 
 const pageUrl = buildCanonicalUrl("/portfolio");
 const pageTitle = "Portfolio | Cyber Circus Enterprise Software Solutions";
 const pageDescription =
-  "Review Cyber Circus enterprise software solutions, digital transformation engagements, and custom development projects that deliver measurable business impact.";
+  "See how we've helped companies transform their operations. Our portfolio showcases real projects—enterprise platforms, mobile apps, and digital transformation initiatives that deliver results.";
 
 export const metadata = createMetadata({
   title: pageTitle,
@@ -37,6 +38,12 @@ export const metadata = createMetadata({
 export default function PortfolioPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Portfolio", url: "/portfolio" }
+        ]}
+      />
       <BannerSection />
       <ProjectSection />
     </>

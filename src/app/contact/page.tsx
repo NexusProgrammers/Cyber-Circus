@@ -1,11 +1,13 @@
 import BannerSection from "@/components/Contact/BannerSection";
 import ContactSection from "@/components/Contact/ContactSection";
-import { buildCanonicalUrl, createMetadata, getContactSchema } from "@/lib/seo";
+import ContactSchema from "@/components/Contact/ContactSchema";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import { buildCanonicalUrl, createMetadata } from "@/lib/seo";
 
 const pageUrl = buildCanonicalUrl("/contact");
 const pageTitle = "Contact Cyber Circus | Enterprise Software Development Partner";
 const pageDescription =
-  "Schedule a consultation with Cyber Circus to discuss enterprise software development, digital transformation, and technology consulting initiatives tailored to your business objectives.";
+  "Ready to start your next project? Get in touch with Cyber Circus to discuss your software needs. We'll help you understand your options and create a plan that fits your goals and budget.";
 
 export const metadata = createMetadata({
   title: pageTitle,
@@ -34,17 +36,18 @@ export const metadata = createMetadata({
   }
 });
 
-const contactSchema = JSON.stringify(getContactSchema());
-
 export default function ContactPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Contact", url: "/contact" }
+        ]}
+      />
       <BannerSection />
       <ContactSection />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: contactSchema }}
-      />
+      <ContactSchema />
     </>
   );
 }

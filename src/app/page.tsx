@@ -4,7 +4,7 @@ import { buildCanonicalUrl, createMetadata } from "@/lib/seo";
 const pageUrl = buildCanonicalUrl("/");
 const pageTitle = "Enterprise Software Development & Digital Transformation Services";
 const pageDescription =
-  "Transform your business with enterprise-grade custom software solutions. Cyber Circus delivers digital transformation, cloud architecture, and technology consulting for global enterprises. Schedule a consultation today.";
+  "Build custom software that transforms how your business operates. Cyber Circus partners with enterprises to create scalable solutions, modernize systems, and deliver technology that drives real results. Let's talk about your project.";
 
 export const metadata = createMetadata({
   title: pageTitle,

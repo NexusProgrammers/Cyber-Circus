@@ -82,7 +82,7 @@ const ProjectSection: React.FC = () => {
               Enterprise Software Solutions Portfolio
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Explore our portfolio of enterprise software solutions, digital transformation projects, and custom software development. See how we&apos;ve helped leading businesses achieve their technology goals and drive measurable results.
+              We've built everything from custom web platforms to mobile apps and enterprise systems. Take a look at some of the projects we're proud of—each one solved a real business challenge and delivered real results.
             </p>
           </div>
         </Fade>

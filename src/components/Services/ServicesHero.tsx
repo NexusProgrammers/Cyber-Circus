@@ -40,7 +40,7 @@ const ServicesHero: React.FC = () => {
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-                We deliver enterprise-grade software solutions that power digital transformation. Our comprehensive technology services enable businesses to innovate, scale, and achieve competitive advantages in today&apos;s digital landscape.
+                We build software that solves real problems. Whether you need a custom web application, a mobile app, or help modernizing your infrastructure, we've got the expertise to make it happen. Every project is different, and we treat yours that way.
               </p>
             </div>
           </Fade>

@@ -303,10 +303,10 @@ const TechStack: React.FC = () => {
   return (
     <div className="text-center w-full py-20">
       <Fade cascade damping={0.1} triggerOnce>
-        <h1 className="text-5xl text-center sm:text-6xl font-semibold leading-tight bg-clip-text h-16 text-transparent bg-gradient-to-r from-blue-600 to-purple-900 border-l-4 border-blue-600 pl-3 inline-block">
+        <h2 className="text-5xl text-center sm:text-6xl font-semibold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-900 dark:from-blue-500 dark:to-indigo-400 border-l-4 border-blue-600 pl-3 inline-block mb-4">
           Enterprise Technology Stack
-        </h1>
-        <p className="text-base sm:text-lg mt-4 font-medium">
+        </h2>
+        <p className="text-base sm:text-lg mt-4 font-medium text-gray-700 dark:text-gray-300">
           Cutting-Edge Technologies Powering Enterprise Solutions
         </p>
       </Fade>

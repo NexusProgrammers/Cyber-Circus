@@ -4,6 +4,9 @@ import dynamic from "next/dynamic";
 import LottieThird from "../../data/Lottie-3.json";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
@@ -30,27 +33,25 @@ const BannerSection: React.FC = () => {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 dark:text-slate-300 max-w-xl">
-                Explore our portfolio of enterprise software solutions, digital transformation projects, and custom software development. See how we&apos;ve helped leading businesses achieve their technology goals and drive measurable results.
+                We've built everything from custom web platforms to mobile apps and enterprise systems. Take a look at some of the projects we're proud of—each one solved a real business challenge and delivered real results.
               </p>
-              <div className="mt-4 flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                  <motion.button
-                    type="button"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="px-8 py-4 bg-gradient-to-r text-white from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 rounded-full font-semibold shadow-lg"
-                  >
+              <div className="mt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Button
+                  asChild
+                  className="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-lg px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  <Link href="/contact">
                     Schedule a Consultation
-                  </motion.button>
-                  <motion.button
-                    type="button"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="px-8 py-4 bg-transparent border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300"
-                  >
-                    View Our Solutions
-                  </motion.button>
-                </div>
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg px-8 py-6 text-base font-semibold hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-300"
+                >
+                  <Link href="/services">View Our Solutions</Link>
+                </Button>
               </div>
             </Fade>
           </motion.div>

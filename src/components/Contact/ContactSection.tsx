@@ -95,7 +95,7 @@ const ContactSection: React.FC = () => {
               Get In Touch
             </h2>
             <p className="text-lg max-w-xl mx-auto text-slate-700 dark:text-slate-300">
-              Ready to transform your business with enterprise software solutions? Contact our team to discuss your project requirements and discover how we can help you achieve your digital transformation goals.
+              Got a project in mind? Let's talk. Whether you're looking to build something new, modernize existing systems, or explore what's possible, we're here to help. Fill out the form below and we'll get back to you within 24 hours.
             </p>
           </Fade>
         </div>

@@ -39,7 +39,7 @@ const BannerSection: React.FC = () => {
               </h1>
 
               <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl">
-                Ready to transform your business with enterprise-grade software solutions? Schedule a consultation with our expert team to discuss your project and explore how we can help you achieve your technology goals.
+                Got a project in mind? Let's talk about it. Whether you're looking to build something new, modernize existing systems, or just explore what's possible, we're here to help. Fill out the form below and we'll get back to you within 24 hours.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">

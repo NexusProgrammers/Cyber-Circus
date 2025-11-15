@@ -1,12 +1,13 @@
 import ServicesHero from "@/components/Services/ServicesHero";
 import ServicesList from "@/components/Services/ServicesList";
 import ServicesCTA from "@/components/Services/ServicesCTA";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { buildCanonicalUrl, createMetadata } from "@/lib/seo";
 
 const pageUrl = buildCanonicalUrl("/services");
 const pageTitle = "Enterprise Software Solutions & Services";
 const pageDescription =
-  "Explore enterprise-grade custom software development, digital transformation, cloud architecture, mobile app development, DevOps, and technology consulting services tailored for global organizations.";
+  "From custom web apps to mobile solutions and cloud infrastructure—we offer the full spectrum of enterprise software services. Each project is tailored to your needs, built to scale, and designed to deliver impact.";
 
 export const metadata = createMetadata({
   title: pageTitle,
@@ -42,6 +43,12 @@ export const metadata = createMetadata({
 export default function ServicesPage() {
   return (
     <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Services", url: "/services" }
+        ]}
+      />
       <ServicesHero />
       <ServicesList />
       <ServicesCTA />

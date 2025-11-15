@@ -3,6 +3,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import NoPositions from "./NoPosition";
 import OpenPosition from "./OpenPosition";
 import {
@@ -348,7 +349,7 @@ const CareerOpportunities: React.FC<CareerOpportunitiesProps> = ({ showOpenPosit
                   asChild
                   className="w-full sm:w-auto rounded-full text-black dark:text-white border-2 border-white/80 px-7 py-4 text-base font-semibold hover:bg-white/10"
                 >
-                  <a href="/services">Explore Our Work</a>
+                  <Link href="/portfolio">Explore Our Work</Link>
                 </Button>
               </div>
             </div>

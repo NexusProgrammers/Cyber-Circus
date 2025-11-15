@@ -34,10 +34,10 @@ const BannerSection: React.FC = () => {
               Transform Your Business with Enterprise-Grade Software Solutions
             </h1>
             <p className="text-xl sm:text-2xl font-light mt-6 border-l-4 border-blue-400 pl-5 text-gray-800 dark:text-gray-200 leading-relaxed">
-              We deliver custom software solutions that drive digital transformation, accelerate growth, and create competitive advantages for global enterprises.
+              We build custom software that transforms how enterprises operate, helping teams move faster, work smarter, and stay ahead of the competition.
             </p>
             <p className="mt-6 text-lg leading-relaxed max-w-xl text-gray-700 dark:text-gray-300">
-              As a leading software development company, we partner with enterprises worldwide to build scalable, secure, and innovative technology solutions. Our expert engineering teams combine deep technical expertise with business acumen to deliver software that transforms operations and drives measurable results.
+              Over the years, we've worked with organizations across industries—from startups scaling fast to Fortune 500 companies modernizing legacy systems. Our team understands that great software isn't just about code; it's about solving real business challenges with technology that's built to last.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center lg:justify-start">
               <Button

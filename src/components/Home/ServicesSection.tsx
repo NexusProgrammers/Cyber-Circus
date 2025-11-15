@@ -11,7 +11,6 @@ import {
   Paintbrush,
   ServerCog,
   CheckSquare,
-  ArrowRight,
   BarChart3,
 } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
@@ -29,56 +28,56 @@ const services: Service[] = [
     title: "Enterprise Web Development",
     icon: Code,
     description:
-      "Build scalable, secure web applications that power your business operations. Our full-stack development expertise delivers robust solutions using modern frameworks and cloud-native architecture.",
+      "We build web applications that actually work—fast, secure, and designed to scale with your business. Whether you need a simple dashboard or a complex enterprise platform, we've got you covered.",
     features: ["React/Next.js", "Node.js/Express", "AWS/Azure deployment"],
   },
   {
     title: "Mobile Application Development",
     icon: Smartphone,
     description:
-      "Create native and cross-platform mobile applications that deliver exceptional user experiences. We build enterprise-grade mobile solutions for iOS and Android with seamless backend integration.",
+      "Create mobile apps that users actually want to use. We build for both iOS and Android, ensuring your app feels native, performs well, and integrates seamlessly with your existing systems.",
     features: ["React Native", "Swift/Kotlin", "Seamless API integration"],
   },
   {
     title: "Cloud Architecture & DevOps",
     icon: ServerCog,
     description:
-      "Optimize your infrastructure with cloud-native solutions and automated DevOps pipelines. We design scalable architectures that ensure reliability, security, and performance at scale.",
+      "Modernize your infrastructure and automate your deployments. We'll help you move to the cloud, set up CI/CD pipelines, and build systems that can handle whatever you throw at them.",
     features: ["Docker/Kubernetes", "CI/CD pipelines", "Cloud architecture"],
   },
   {
     title: "Digital Transformation Consulting",
     icon: Blocks,
     description:
-      "Transform your business operations with strategic technology consulting. Our experts help you modernize legacy systems, optimize processes, and implement innovative solutions that drive growth.",
+      "Sometimes you need more than code—you need a plan. We help businesses figure out what technology they actually need, how to get there, and what it means for their operations.",
     features: ["Enterprise architecture", "Legacy modernization", "Process optimization"],
   },
   {
     title: "UI/UX Design & User Experience",
     icon: Paintbrush,
     description:
-      "Design intuitive, accessible interfaces that users love. Our design team creates compelling user experiences that improve engagement, conversion, and customer satisfaction.",
+      "Great software needs great design. We create interfaces that look good, feel intuitive, and make sense to the people who use them every day. Accessibility and usability aren't optional here.",
     features: ["Figma prototyping", "Design systems", "Accessibility focus"],
   },
   {
     title: "Quality Assurance & Testing",
     icon: CheckSquare,
     description:
-      "Ensure software quality with comprehensive testing strategies. Our QA engineers deliver automated and manual testing services that guarantee reliability, performance, and security.",
+      "We test everything—not just to make sure it works, but to make sure it works well. Automated testing, performance checks, and security audits are all part of the package.",
     features: ["Automated testing", "Performance testing", "Security audits"],
   },
   {
     title: "Enterprise Integration Services",
     icon: Blocks,
     description:
-      "Seamlessly connect your systems with enterprise integration solutions. We build APIs, microservices, and integration platforms that unify your technology ecosystem.",
+      "Connect the dots between your systems. We build APIs and integration platforms that let all your tools talk to each other, so your team doesn't have to jump between a dozen different apps.",
     features: ["API development", "Microservices", "System integration"],
   },
   {
     title: "Data Engineering & Analytics",
     icon: BarChart3,
     description:
-      "Unlock insights from your data with advanced analytics and engineering solutions. We build data pipelines, warehouses, and analytics platforms that drive informed decision-making.",
+      "Turn your data into something useful. We build pipelines, warehouses, and analytics platforms that help you understand what's happening in your business and make better decisions.",
     features: ["Data pipelines", "Analytics platforms", "Business intelligence"],
   },
 ];
@@ -99,7 +98,7 @@ const ServicesSection: React.FC = () => {
             </h2>
             <div className="w-20 h-1 bg-blue-600 mx-auto mb-6" />
             <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              We deliver enterprise-grade software solutions that power digital transformation. Our comprehensive technology services enable businesses to innovate, scale, and achieve competitive advantages in today&apos;s digital landscape.
+              From custom web applications to mobile solutions and cloud infrastructure—we offer the tools and expertise to transform your business. Every project is tailored to your needs, built to scale, and designed to deliver results.
             </p>
           </div>
         </Fade>
@@ -149,18 +148,6 @@ const ServicesSection: React.FC = () => {
                         </li>
                       ))}
                     </ul>
-                    <Button
-                      type="button"
-                      className="w-full relative group cursor-pointer rounded-lg py-2 border border-blue-600 text-blue-600 dark:text-blue-400 bg-transparent transition-all overflow-hidden flex items-center justify-between px-4 text-sm"
-                    >
-                      <span className="relative z-10 transition-all group-hover:text-white">
-                        Learn More
-                      </span>
-                      <span className="absolute inset-0 w-0 bg-blue-600 transition-all duration-300 ease-in-out group-hover:w-full" />
-                      <span className="relative z-10 bg-blue-600 text-white rounded-full p-1 flex items-center justify-center transition-all duration-300 group-hover:bg-white group-hover:text-blue-600">
-                        <ArrowRight className="w-3 h-3" />
-                      </span>
-                    </Button>
                   </CardContent>
                 </Card>
               </motion.div>
